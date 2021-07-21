@@ -15,7 +15,7 @@ class IncludesTax extends React.Component {
             unitCost: 0,
             recomendedPrice: 0,
             errorMsj: "",
-        }
+        }        
     }
     handleChange = (inputs) => {
         switch (inputs.target.name) {
@@ -43,6 +43,7 @@ class IncludesTax extends React.Component {
             this.setState({ recomendedPrice: recomendedPrice });
         }
     }
+    
     render() {
         return (
             <div className="tittle">
